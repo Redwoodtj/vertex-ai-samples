@@ -6,3 +6,4 @@ smart_open==6.0.0
 
 google-cloud-storage>=1.26.0,<2.0.0dev
 google-cloud-aiplatform[prediction]>=1.16.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
